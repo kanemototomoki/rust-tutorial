@@ -1,0 +1,21 @@
+{
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "git.ignoreLimitWarning": true,
+  "eslint.enable": false,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.caseSensitive": true,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.checkOnSave.features": [
+    // We use this to make IDE faster
+    "rust-analyzer"
+  ],
+  "rust-analyzer.server.extraEnv": {
+    "CARGO": "/usr/bin/cargo"
+  }
+}
